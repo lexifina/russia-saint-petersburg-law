@@ -1,0 +1,114 @@
+{
+ "generated": "2026-11-24T14:46:23Z",
+ "latest": {
+  "pravo-saint-petersburg|russia/saint-petersburg/acts": {
+   "attempt": 1,
+   "audit": {
+    "examples": [],
+    "match_neither": 0,
+    "match_new": 2,
+    "match_old": 0,
+    "method": "each sampled entry's own record on the portal (/api/Document?eoNumber=...), its title, number and date signed against the listing's",
+    "sampled": 2
+   },
+   "census": {
+    "checked": 1717,
+    "current": 1701,
+    "gone": 0,
+    "held": 1701,
+    "newest_in_repo": "2026-10-30",
+    "pending": 16,
+    "repo": 1701,
+    "source_in_scope": 1717
+   },
+   "check_id": "ru-pravo-saint-petersburg-20261124T143941Z",
+   "commits": {
+    "count": 5,
+    "from": "572bcdb36a7a7ff36a085f60dd9564be8678e07f",
+    "to": "2cfac94422311696431e051ef257a8821e07f0b5"
+   },
+   "corpus": "russia/saint-petersburg/acts",
+   "error": null,
+   "finished": "2026-11-24T14:46:23Z",
+   "flags": [],
+   "gap": 0,
+   "note": "publication.pravo.gov.ru, block region78: 1717 law-type documents listed (every page read); 1701 held here; 16 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "changed",
+   "published": {
+    "added": [
+     "7800202611090001",
+     "7800202611090002",
+     "7800202611090003",
+     "7800202611090004",
+     "7800202611090005",
+     "7800202611090006",
+     "7800202611090007",
+     "7800202611090008",
+     "7800202611090009",
+     "7800202611090010",
+     "7800202611190001",
+     "7800202611230001",
+     "7800202611230002",
+     "7800202611230003",
+     "7800202611230004",
+     "7800202611240001"
+    ],
+    "changed": [],
+    "removed": []
+   },
+   "requests": 12,
+   "runner": "lawwatch russia (65e3dde363)",
+   "schema": "lexifina-check/1",
+   "seen": {
+    "added": [
+     "7800202611090001",
+     "7800202611090002",
+     "7800202611090003",
+     "7800202611090004",
+     "7800202611090005",
+     "7800202611090006",
+     "7800202611090007",
+     "7800202611090008",
+     "7800202611090009",
+     "7800202611090010",
+     "7800202611190001",
+     "7800202611230001",
+     "7800202611230002",
+     "7800202611230003",
+     "7800202611230004",
+     "7800202611240001"
+    ],
+    "changed": [],
+    "removed": []
+   },
+   "snapshot": "1717 law-type documents in block region78; newest published 2026-11-24",
+   "source": "pravo-saint-petersburg",
+   "started": "2026-11-24T14:39:41Z",
+   "unexplained": 0,
+   "update": {
+    "append": {
+     "commits": 4,
+     "corrections": null,
+     "extended_acts": [
+      "zakony-2026"
+     ],
+     "new_acts": []
+    },
+    "parts": [
+     "95-watch-20261124-001.json"
+    ]
+   },
+   "verify": {
+    "cycle_days": 1,
+    "examples": [],
+    "held": 12,
+    "method": "the portal's whole listing for the subject (read this check, every page) parsed by the builder (ru_catalogue.parse) and compared, publication day by publication day, with the corpus this repository is built from; each year's newest state rendered by the builder (gitlaw_common) against the files at the tip of main",
+    "ok": true,
+    "swept": 12,
+    "versions_checked": 471,
+    "versions_differ": 0
+   }
+  }
+ },
+ "schema": "lexifina-check/1"
+}
