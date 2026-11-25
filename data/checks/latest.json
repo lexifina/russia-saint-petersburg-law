@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T14:46:23Z",
+ "generated": "2026-11-25T07:02:17Z",
  "latest": {
   "pravo-saint-petersburg|russia/saint-petersburg/acts": {
    "attempt": 1,
@@ -13,46 +13,25 @@
    },
    "census": {
     "checked": 1717,
-    "current": 1701,
+    "current": 1717,
     "gone": 0,
-    "held": 1701,
-    "newest_in_repo": "2026-10-30",
-    "pending": 16,
-    "repo": 1701,
+    "held": 1717,
+    "newest_in_repo": "2026-11-24",
+    "pending": 0,
+    "repo": 1717,
     "source_in_scope": 1717
    },
-   "check_id": "ru-pravo-saint-petersburg-20261124T143941Z",
-   "commits": {
-    "count": 5,
-    "from": "572bcdb36a7a7ff36a085f60dd9564be8678e07f",
-    "to": "2cfac94422311696431e051ef257a8821e07f0b5"
-   },
+   "check_id": "ru-pravo-saint-petersburg-20261125T063010Z",
+   "commits": null,
    "corpus": "russia/saint-petersburg/acts",
    "error": null,
-   "finished": "2026-11-24T14:46:23Z",
+   "finished": "2026-11-25T06:30:59Z",
    "flags": [],
    "gap": 0,
-   "note": "publication.pravo.gov.ru, block region78: 1717 law-type documents listed (every page read); 1701 held here; 16 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
-   "outcome": "changed",
+   "note": "publication.pravo.gov.ru, block region78: 1717 law-type documents listed (every page read); 1717 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "no-change",
    "published": {
-    "added": [
-     "7800202611090001",
-     "7800202611090002",
-     "7800202611090003",
-     "7800202611090004",
-     "7800202611090005",
-     "7800202611090006",
-     "7800202611090007",
-     "7800202611090008",
-     "7800202611090009",
-     "7800202611090010",
-     "7800202611190001",
-     "7800202611230001",
-     "7800202611230002",
-     "7800202611230003",
-     "7800202611230004",
-     "7800202611240001"
-    ],
+    "added": [],
     "changed": [],
     "removed": []
    },
@@ -60,43 +39,16 @@
    "runner": "lawwatch russia (65e3dde363)",
    "schema": "lexifina-check/1",
    "seen": {
-    "added": [
-     "7800202611090001",
-     "7800202611090002",
-     "7800202611090003",
-     "7800202611090004",
-     "7800202611090005",
-     "7800202611090006",
-     "7800202611090007",
-     "7800202611090008",
-     "7800202611090009",
-     "7800202611090010",
-     "7800202611190001",
-     "7800202611230001",
-     "7800202611230002",
-     "7800202611230003",
-     "7800202611230004",
-     "7800202611240001"
-    ],
+    "added": [],
     "changed": [],
     "removed": []
    },
    "snapshot": "1717 law-type documents in block region78; newest published 2026-11-24",
    "source": "pravo-saint-petersburg",
-   "started": "2026-11-24T14:39:41Z",
+   "started": "2026-11-25T06:30:10Z",
    "unexplained": 0,
    "update": {
-    "append": {
-     "commits": 4,
-     "corrections": null,
-     "extended_acts": [
-      "zakony-2026"
-     ],
-     "new_acts": []
-    },
-    "parts": [
-     "95-watch-20261124-001.json"
-    ]
+    "parts": []
    },
    "verify": {
     "cycle_days": 1,
