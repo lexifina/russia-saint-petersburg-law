@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T06:19:26Z",
+ "generated": "2026-11-27T06:11:28Z",
  "latest": {
   "pravo-saint-petersburg|russia/saint-petersburg/acts": {
    "attempt": 1,
@@ -13,33 +13,25 @@
    },
    "census": {
     "checked": 1720,
-    "current": 1717,
+    "current": 1720,
     "gone": 0,
-    "held": 1717,
-    "newest_in_repo": "2026-11-24",
-    "pending": 3,
-    "repo": 1717,
+    "held": 1720,
+    "newest_in_repo": "2026-11-25",
+    "pending": 0,
+    "repo": 1720,
     "source_in_scope": 1720
    },
-   "check_id": "ru-pravo-saint-petersburg-20261126T055439Z",
-   "commits": {
-    "count": 2,
-    "from": "2983ed9310ca0cde6968d935361783abb0e040b3",
-    "to": "67445a242eb2be0f349e7a74c395a1acd58c8932"
-   },
+   "check_id": "ru-pravo-saint-petersburg-20261127T055001Z",
+   "commits": null,
    "corpus": "russia/saint-petersburg/acts",
    "error": null,
-   "finished": "2026-11-26T05:55:56Z",
+   "finished": "2026-11-27T05:50:44Z",
    "flags": [],
    "gap": 0,
-   "note": "publication.pravo.gov.ru, block region78: 1720 law-type documents listed (every page read); 1717 held here; 3 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
-   "outcome": "changed",
+   "note": "publication.pravo.gov.ru, block region78: 1720 law-type documents listed (every page read); 1720 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "no-change",
    "published": {
-    "added": [
-     "7800202611250009",
-     "7800202611250011",
-     "7800202611250012"
-    ],
+    "added": [],
     "changed": [],
     "removed": []
    },
@@ -47,30 +39,16 @@
    "runner": "lawwatch russia (65e3dde363)",
    "schema": "lexifina-check/1",
    "seen": {
-    "added": [
-     "7800202611250009",
-     "7800202611250011",
-     "7800202611250012"
-    ],
+    "added": [],
     "changed": [],
     "removed": []
    },
    "snapshot": "1720 law-type documents in block region78; newest published 2026-11-25",
    "source": "pravo-saint-petersburg",
-   "started": "2026-11-26T05:54:39Z",
+   "started": "2026-11-27T05:50:01Z",
    "unexplained": 0,
    "update": {
-    "append": {
-     "commits": 1,
-     "corrections": null,
-     "extended_acts": [
-      "zakony-2026"
-     ],
-     "new_acts": []
-    },
-    "parts": [
-     "95-watch-20261126-001.json"
-    ]
+    "parts": []
    },
    "verify": {
     "cycle_days": 1,
