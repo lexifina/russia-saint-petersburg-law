@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T06:11:28Z",
+ "generated": "2026-11-28T06:25:47Z",
  "latest": {
   "pravo-saint-petersburg|russia/saint-petersburg/acts": {
    "attempt": 1,
@@ -21,11 +21,11 @@
     "repo": 1720,
     "source_in_scope": 1720
    },
-   "check_id": "ru-pravo-saint-petersburg-20261127T055001Z",
+   "check_id": "ru-pravo-saint-petersburg-20261128T055949Z",
    "commits": null,
    "corpus": "russia/saint-petersburg/acts",
    "error": null,
-   "finished": "2026-11-27T05:50:44Z",
+   "finished": "2026-11-28T06:00:41Z",
    "flags": [],
    "gap": 0,
    "note": "publication.pravo.gov.ru, block region78: 1720 law-type documents listed (every page read); 1720 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
@@ -45,7 +45,7 @@
    },
    "snapshot": "1720 law-type documents in block region78; newest published 2026-11-25",
    "source": "pravo-saint-petersburg",
-   "started": "2026-11-27T05:50:01Z",
+   "started": "2026-11-28T05:59:49Z",
    "unexplained": 0,
    "update": {
     "parts": []
